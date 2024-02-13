@@ -22,7 +22,7 @@
 
     <title>YachtJet</title>
     <script type="module" crossorigin src="/project-group-25/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-25/assets/index-468c3078.css">
+    <link rel="stylesheet" href="/project-group-25/assets/index-23ad9c4f.css">
   </head>
 
   <body>
@@ -111,7 +111,7 @@
 
     <!-- ABOUT US -->
 <section class="section about-section">
-  <div class="about-container">
+  <div id="about-container" class="container">
     <div class="about-upper-container">
       <h2 class="about-title">
         YachtJet fleet is here to take you on the ultimate adventure
@@ -133,21 +133,33 @@
     <div class="about-img-container">
       <picture>
         <source
-          srcset="/project-group-25/assets/modern-yacht-pc-93e2c01d.jpg 1x, /project-group-25/assets/modern-yacht-pc@2-54849157.jpg 2x"
+          srcset="
+            /src/img/about-us/modern-yacht-pc.jpg   1x,
+            /src/img/about-us/modern-yacht-pc@2.jpg 2x
+          "
           media="(min-width: 1280px) and (max-width: 1399px)"
         />
         <source
-          srcset="/project-group-25/assets/modern-yacht-tablet-c40262eb.jpg 1x, /project-group-25/assets/modern-yacht-tablet@2-344bb3f8.jpg 2x"
+          srcset="
+            /src/img/about-us/modern-yacht-tablet.jpg   1x,
+            /src/img/about-us/modern-yacht-tablet@2.jpg 2x
+          "
           media="(min-width: 768px) and (max-width: 1279px)"
         />
         <source
-          srcset="/project-group-25/assets/modern-yacht-mobile-8c3493c2.jpg 1x, /project-group-25/assets/modern-yacht-mobile@2-9278ef9c.jpg 2x"
+          srcset="
+            /src/img/about-us/modern-yacht-mobile.jpg   1x,
+            /src/img/about-us/modern-yacht-mobile@2.jpg 2x
+          "
           media="(max-width: 767px)"
         />
         <img
           class="about-img"
-          srcset="/project-group-25/assets/modern-yacht-e4dbfb1c.jpg 1x, /project-group-25/assets/modern-yacht@2-5deeb500.jpg 2x"
-          src="/project-group-25/assets/modern-yacht-e4dbfb1c.jpg"
+          srcset="
+            /src/img/about-us/modern-yacht.jpg   1x,
+            /src/img/about-us/modern-yacht@2.jpg 2x
+          "
+          src="/src/img/about-us/modern-yacht.jpg"
           alt="A moder yacht"
           width="1340"
           height="470"
