@@ -94,6 +94,7 @@
   background-color: rgba(27, 65, 75, 0.5);
   border: none;
   cursor: pointer;
+  padding: 15px 25px 15px 24px;
 }
 
 /* .header-nav-button.active {
